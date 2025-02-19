@@ -65,7 +65,6 @@ for List in sortedQList:
 
 # 구간 병합
 merged_intervals = merge_common_lists([memo_item['common_list'] for memo_item in memo])
-print("Merged Intervals:", merged_intervals)
 
 for result in results:
     print(result)
